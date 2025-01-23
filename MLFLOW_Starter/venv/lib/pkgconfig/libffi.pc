@@ -1,0 +1,11 @@
+prefix=/Users/luisweekes/Documents/MLops Course/MLFLOW_Starter/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/luisweekes/Documents/MLops Course/MLFLOW_Starter/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
